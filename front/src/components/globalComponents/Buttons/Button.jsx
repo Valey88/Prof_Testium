@@ -7,7 +7,7 @@ const Button = ({
   backBtn,
   weightBtn,
   sizeBtn,
-  borderBtn
+  borderBtn,
 }) => {
   return (
     <button
@@ -16,7 +16,7 @@ const Button = ({
         width: widthBtn,
         background: backBtn,
         color: colorBtn,
-        border: borderBtn
+        border: borderBtn,
       }}
     >
       <div
@@ -39,7 +39,7 @@ Button.defaultProps = {
   colorBtn: "#000",
   weightBtn: 600,
   sizeBtn: 17,
-  borderBtn: 'none'
+  borderBtn: "none",
 }
 
 export default Button

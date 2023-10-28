@@ -10,6 +10,7 @@ const Input = ({
   placeInp,
   borderInp,
   heightInp,
+
 }) => {
   return (
     <input

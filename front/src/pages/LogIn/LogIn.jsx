@@ -1,31 +1,44 @@
 import style from "./LogIn.module.css"
-import Input from "../../components/globalComponents/Input/Input"
-import Button from "../../components/globalComponents/Buttons/Button"
+import axios from "axios"
+import { useState, useEffect } from "react"
 
 const handleSubmit = (event) => {
   event.preventDefault()
 }
 
 const LogIn = () => {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const submit = () => {
+    axios
+      .post("http://127.0.0.1:3001/api/signin", {
+        email: email,
+        password: password,
+      })
+      .then((response) => {
+        console.log(response.data)
+      })
+      .catch((error) => {
+        console.log(error.response.data.message)
+        return <div>{error.response.data.message}</div>
+      })
+  }
   return (
     <div className={style.main}>
       <form onSubmit={handleSubmit} className={style.logForm}>
         <h1>Войти</h1>
         <div className={style.inpBlock}>
-          <Input
-            placeInp="Логин, почта или телефон"
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
+          <input
+            onChange={(e) => setEmail(e.target.value)}
+            type="text"
+            placeholder="Почта"
           />
-          <Input
-            typeBtn="password"
-            placeInp="Ваш пароль"
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
+          <input
+            onChange={(e) => setPassword(e.target.value)}
+            type="password"
+            placeholder="Пароль"
           />
-          <Button backBtn="#fff" colorBtn="#000">
-            Войти
-          </Button>
+          <button onClick={submit}>Войти</button>
         </div>
       </form>
     </div>
