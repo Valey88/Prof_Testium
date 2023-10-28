@@ -150,3 +150,15 @@ header {
   font-weight: 700;
   size: 20px;
 }
+h2 {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: normal;
+  font-style: normal;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}

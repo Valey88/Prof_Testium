@@ -1,10 +1,9 @@
 import style from "./TrialBlock.module.css";
 import Button from "../../../components/globalComponents/Buttons/Button";
 import Input from "../../../components/globalComponents/Input/Input";
-
+import { Link } from "react-router-dom";
 
 function TrialBlock() {
-  
   return (
     <div className={style.trialTitle}>
       <div className={style.trialText}>
@@ -19,22 +18,21 @@ function TrialBlock() {
           контентом.
         </p>
         <div className={style.trialButton}>
-          <Button
-            className={style.btnModal}
-            backBtn="#fff"
-            colorBtn="#6d32ff"
-            widthBtn={246}
-          >
-            Попробовать бесплатно
-          </Button>
-          <Button
-            backBtn="none"
-            colorBtn="#fff"
-            borderBtn="1px solid #fff"
-            widthBtn={246}
-          >
-            Создать портал
-          </Button>
+          <Link to="/trial">
+            <Button backBtn="#fff" colorBtn="#6d32ff" widthBtn={246}>
+              Попробовать бесплатно
+            </Button>
+          </Link>
+          <Link to="/login">
+            <Button
+              backBtn="none"
+              colorBtn="#fff"
+              borderBtn="1px solid #fff"
+              widthBtn={246}
+            >
+              Войти в аккаунт
+            </Button>
+          </Link>
         </div>
       </div>
       <div className={style.trialImg}>

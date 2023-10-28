@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Button from "../../components/globalComponents/Buttons/Button";
 import Input from "../../components/globalComponents/Input/Input";
 import style from "./Home.module.css";
 import Keywords from "./Keywords/Keywords";
 import TrialBlock from "./Trialplatform/TrialBlock";
+import { Link } from "react-router-dom";
+import Opportunities from "./Opportunities/Opportunities";
 
 const Home = () => {
   return (
@@ -28,22 +31,27 @@ const Home = () => {
                 <br /> вас с возможностями интерактивной платформы
               </li>
               <div className={style.headerButton}>
-                <Button backBtn="#fff" colorBtn="#6d32ff" widthBtn={246}>
-                  Попробовать бесплатно
-                </Button>
-                <Button
-                  backBtn="none"
-                  colorBtn="#fff"
-                  borderBtn="1px solid #fff"
-                  widthBtn={246}
-                >
-                  Войти в аккаунт
-                </Button>
+                <Link to="/trial">
+                  <Button backBtn="#fff" colorBtn="#6d32ff" widthBtn={246}>
+                    Попробовать бесплатно
+                  </Button>
+                </Link>
+                <Link to="/login">
+                  <Button
+                    backBtn="none"
+                    colorBtn="#fff"
+                    borderBtn="1px solid #fff"
+                    widthBtn={246}
+                  >
+                    Войти в аккаунт
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Opportunities />
       <Keywords />
       <TrialBlock />
     </div>

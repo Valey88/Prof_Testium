@@ -1,5 +1,6 @@
 .KeywordsBlock {
   width: 100%;
+  padding-bottom: 211px;
 }
 .KeywordsInside {
   display: grid;
@@ -16,4 +17,5 @@
   display: flex;
   justify-content: center;
   padding: 70px 0 40px 0;
+  padding-bottom: 115px;
 }

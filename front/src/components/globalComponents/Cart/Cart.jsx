@@ -1,4 +1,4 @@
-import style from "./Cart.module.css"
+import style from "./Cart.module.css";
 
 const Cart = ({ icon, heading, info, number }) => {
   return (
@@ -12,7 +12,7 @@ const Cart = ({ icon, heading, info, number }) => {
         <p>{info}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;
