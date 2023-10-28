@@ -1,0 +1,19 @@
+.KeywordsBlock {
+  width: 100%;
+}
+.KeywordsInside {
+  display: grid;
+  justify-content: center;
+}
+
+.KeywordsMain {
+  display: flex;
+  grid-gap: 12.5%;
+  flex-wrap: wrap;
+}
+
+.KeywordsHeaderText {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 40px 0;
+}

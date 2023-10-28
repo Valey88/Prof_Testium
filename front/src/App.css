@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerMenu a {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.headerMenu a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #6d32ff;
+
+  width: 0;
+  transition: 0.3s;
+}
+
+.headerMenu a:hover:after {
+  width: 100%;
+}
+
+.headerLogo a {
+  color: #6d32ff;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.headerMenu {
+  display: flex;
+  grid-gap: 40px;
+}
+
+.headerMenu li {
+  list-style-type: none;
+}
+
+.headerMenu li a {
+  font-weight: 600;
+}
+
+.logSigIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  grid-gap: 20px;
+}
+
+.logSigIn a {
+  font-weight: 600;
+  color: #000;
+}
+
+.logSigIn div {
+  font-weight: 700;
+  color: #000;
+}
+
+/* footer */
+.footerBlock {
+  display: flex;
+  justify-content: space-around;
+  background-color: #6d32ff;
+  width: 100%;
+  height: 550px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.footerLogo a {
+  color: #6d32ff;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+.footerLogo {
+  padding-top: 100px;
+}
+.footerMenu {
+  padding-top: 100px;
+}
+.footerMenu a {
+  color: #fff;
+  gap: 40px;
+}
+.footerMenu a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+
+  width: 0;
+  transition: 0.3s;
+}
+.footerMenu a:hover:after {
+  width: 100%;
+}
+.footerMenu li {
+  list-style-type: none;
+  padding-top: 35px;
+}
+
+.footerMenu li a {
+  font-weight: 600;
+}
+.formFooter {
+  display: grid;
+  padding-top: 100px;
+}
+.formFooter textarea {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footerButton {
+  display: flex;
+  justify-content: center;
+}
+.formHeading {
+  background-color: #fff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formHeading a {
+  color: #6d32ff;
+  font-weight: 700;
+  size: 20px;
+}

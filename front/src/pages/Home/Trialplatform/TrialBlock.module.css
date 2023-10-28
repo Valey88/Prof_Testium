@@ -1,0 +1,36 @@
+.trialTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: #6d32ff;
+  border-radius: 30px;
+  height: 680px;
+  margin: 100px 0;
+}
+
+.trialImg img {
+  object-fit: cover;
+}
+.trialText h1 {
+  text-align: left;
+  line-height: 79px;
+  padding-bottom: 71px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+}
+.trialText p {
+  color: white;
+  padding-bottom: 46px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.trialButton {
+  display: flex;
+  justify-content: left;
+  grid-gap: 44px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

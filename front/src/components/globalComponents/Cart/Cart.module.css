@@ -1,0 +1,28 @@
+.cart {
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+.cart div:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+.cart div {
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.cart div h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cart div h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart div p {
+    font-size: 16px;
+}
