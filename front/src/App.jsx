@@ -15,6 +15,7 @@ import Support from "./components/Home/Support/Support"
 import Register from "./pages/Register/Register"
 import Input from "./components/globalComponents/Input/Input"
 import Button from "./components/globalComponents/Buttons/Button"
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/trial" element={<Trial />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <footer>
         <div className="footerBlock">

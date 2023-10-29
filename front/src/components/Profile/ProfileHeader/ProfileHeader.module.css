@@ -1,0 +1,12 @@
+.ProfileHeader {
+    border-bottom: 1px solid gray;
+}
+
+.ProfileHeader ul {
+    display: flex;
+    grid-gap: 40px;
+}
+
+.ProfileHeader ul li {
+    list-style-type: none;
+}
