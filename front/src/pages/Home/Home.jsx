@@ -2,10 +2,10 @@ import { useState } from "react";
 import Button from "../../components/globalComponents/Buttons/Button";
 import Input from "../../components/globalComponents/Input/Input";
 import style from "./Home.module.css";
-import Keywords from "./Keywords/Keywords";
-import TrialBlock from "./Trialplatform/TrialBlock";
+import Keywords from "../../components/Home/Keywords/Keywords";
+import TrialBlock from "../../components/Home/Trialplatform/TrialBlock";
 import { Link } from "react-router-dom";
-import Opportunities from "./Opportunities/Opportunities";
+import Opportunities from "../../components/Home/Opportunities/Opportunities";
 
 const Home = () => {
   return (

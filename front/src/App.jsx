@@ -2,20 +2,8 @@ import React from "react";
 import "./App.css";
 //yarn add react-fetch-hook
 
-<<<<<<< HEAD
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Rates from "./components/Home/Rates/Rates";
-import LogIn from "./pages/LogIn/LogIn";
-import Integration from "./components/Home/Integration/Integration";
-import Opportunities from "./components/Home/Opportunities/Opportunities";
-import Reviews from "./components/Home/Reviews/Reviews";
-import Support from "./components/Home/Support/Support";
-import Register from "./pages/Register/Register";
-import Input from "./components/globalComponents/Input/Input";
-import Button from "./components/globalComponents/Buttons/Button";
+
 import Trial from "./pages/Trial/Trial";
-=======
 import { Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home/Home"
 import Rates from "./components/Home/Rates/Rates"
@@ -27,7 +15,6 @@ import Support from "./components/Home/Support/Support"
 import Register from "./pages/Register/Register"
 import Input from "./components/globalComponents/Input/Input"
 import Button from "./components/globalComponents/Buttons/Button"
->>>>>>> f6213b7 (add)
 
 function App() {
   return (
