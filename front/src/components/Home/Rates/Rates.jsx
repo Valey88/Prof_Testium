@@ -6,7 +6,9 @@ const Rates = () => {
         <div className={style.Rates}>
             <h2>Тарифы</h2>
             <div className={style.Cards}>
-                <RatesCard />
+                <RatesCard name='Малый бизнес' price='10 000' />
+                <RatesCard name='Малый бизнес' price='10 000' />
+                <RatesCard name='Малый бизнес' price='10 000' />
             </div>
         </div>
     )

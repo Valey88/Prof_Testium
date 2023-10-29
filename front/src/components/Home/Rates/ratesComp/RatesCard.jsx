@@ -8,23 +8,23 @@ const RatesCard = ({ name, price }) => {
       <span>{price} руб./мес</span>
       <div className={style.conditions}>
         <div>
-          <img src="/front/src/assets/icon/Vector.svg" />
+          <img src="/src/assets/icon/Tick-Square.svg" />
           <p>Изменение дизайна </p>
         </div>
         <div>
-          <img src="/front/src/assets/icon/Vector.svg" />
+          <img src="/src/assets/icon/Tick-Square.svg" />
           <p>Что-то еще  </p>
         </div>
         <div>
-          <img src="/front/src/assets/icon/Vector.svg" />
+          <img src="/src/assets/icon/Tick-Square.svg" />
           <p>Что-то еще  </p>
         </div>
         <div>
-          <img src="/front/src/assets/icon/Vector.svg" />
+          <img src="/src/assets/icon/Tick-Square.svg" />
           <p>Что-то еще  </p>
         </div>
         <div>
-          <img src="/front/src/assets/icon/Vector.svg" />
+          <img src="/src/assets/icon/Tick-Square.svg" />
           <p>Что-то еще  </p>
         </div>
         
