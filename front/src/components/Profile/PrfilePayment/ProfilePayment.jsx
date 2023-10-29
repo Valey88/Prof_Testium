@@ -21,6 +21,42 @@ function ProfilePayment() {
             </div>
           </div>
         </div>
+        <div className={style.ProfilePaymentBlockInside}>
+          <div className={style.PaymentBlock}>
+            <div>
+              <img
+                src="/src/assets/icon/free-icon-card-11895093 (1).png"
+                alt=""
+              />
+              <p>xxxx xxxx xxxx 0879</p>
+            </div>
+            <div>
+              <button>
+                <img src="/src/assets/icon/piper.svg" alt="" />
+              </button>
+              <button>
+                <img src="/src/assets/icon/rabit.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className={style.ProfilePaymentBlockInside}>
+          <div className={style.PaymentBlock}>
+            <div>
+              <img src="/src/assets/icon/free-icon-visa-349221.png" alt="" />
+              <p>xxxx xxxx xxxx 2229</p>
+            </div>
+            <div>
+              <button>
+                <img src="/src/assets/icon/piper.svg" alt="" />
+              </button>
+              <button>
+                <img src="/src/assets/icon/rabit.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div className={style.AddPaymentBlock}>
           <div>
             <Button backBtn="#f5f5f5" widthBtn={250}>
