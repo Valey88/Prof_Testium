@@ -1,0 +1,47 @@
+.headerBlock {
+    display: flex;
+    background: #6d32ff;
+    border-radius: 30px;
+    padding: 135px 37px 134px 67px;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.headerText {
+    max-width: 759px;
+}
+
+.headerText h1 {
+    font-size: calc(24px + 18 * (100vw / 1608));
+    font-weight: 700;
+    line-height: 1.71;
+    margin-bottom: 71px;
+}
+
+.headerText ul {
+    margin-bottom: 71px;
+}
+
+.headerText ul li:not(:last-child) {
+    padding-bottom: 46px;
+}
+
+.headerText ul li {
+    max-width: 555px;
+    font-size: 20px;
+}
+
+.headerImg {
+    display: flex;
+    align-items: center;
+}
+
+.headerImg img {
+    width: 100%;
+    height: auto;
+}
+
+.headerButton {
+    display: flex;
+    grid-gap: 20px;
+}
