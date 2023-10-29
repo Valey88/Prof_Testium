@@ -25,19 +25,13 @@ function App() {
         </div>
         <ul className="headerMenu">
           <li>
-            <a href="#Opportunities">Возможности</a>
+            <a href="/#opportunities">Возможности</a>
           </li>
           <li>
-            <a href="#tarifs">Тарифы</a>
+            <a href="/#tarifs">Тарифы</a>
           </li>
           <li>
-            <a href="#keywords">Внедрение</a>
-          </li>
-          <li>
-            <a>Отзывы</a>
-          </li>
-          <li>
-            <a>Поддержка</a>
+            <a href="/#keywords">Внедрение</a>
           </li>
         </ul>
         <div className="logSigIn">
@@ -69,12 +63,6 @@ function App() {
               <li>
                 <a>Внедрение</a>
               </li>
-              <li>
-                <a>Отзывы</a>
-              </li>
-              <li>
-                <a>Поддержка</a>
-              </li>
             </ul>
           </div>
           <div className="footerMenu">
@@ -87,12 +75,6 @@ function App() {
               </li>
               <li>
                 <a>Внедрение</a>
-              </li>
-              <li>
-                <a>Отзывы</a>
-              </li>
-              <li>
-                <a>Поддержка</a>
               </li>
             </ul>
           </div>

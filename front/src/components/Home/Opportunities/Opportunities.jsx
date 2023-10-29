@@ -2,7 +2,7 @@ import style from "./Opportunities.module.css";
 
 function Opportunities() {
   return (
-    <div id="Opportunities" className={style.OpportunitiesBlock}>
+    <div id="opportunities" className={style.OpportunitiesBlock}>
       <div className={style.headingText}>
         <h2>Возможности</h2>
       </div>
