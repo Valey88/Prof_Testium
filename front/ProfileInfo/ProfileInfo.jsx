@@ -1,10 +1,10 @@
-import style from "./ProfileInfo.module.css";
+import style from "./ProfileInfo.module.css"
 
 const ProfileInfo = () => {
   return (
     <div className={style.ProfileInfo}>
       <form className={style.imgForm}>
-        <img src="/src/assets/icon/Profile-11895093 (1).png" alt="" />
+        <img src="/src/assets/icon/profile_3135823 (1).png" alt="" />
         <div>
           <input
             id="file-input"
@@ -16,9 +16,11 @@ const ProfileInfo = () => {
           <label for="file-input">Выберите файл</label>
         </div>
       </form>
-      <div></div>
+      <div>
+        
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProfileInfo;
+export default ProfileInfo

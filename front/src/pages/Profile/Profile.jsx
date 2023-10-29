@@ -11,7 +11,7 @@ const Profile = () => {
         <h1>Мой профиль</h1>
         <div className={style.ProfileBlock}>
           <ProfileHeader />
-          {/* <ProfileInfo /> */}
+          <ProfileInfo />
           <ProfilePayment />
         </div>
       </div>
