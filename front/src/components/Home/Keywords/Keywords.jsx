@@ -42,7 +42,7 @@ const cartObj = [
 
 function Keywords() {
   return (
-    <div className={style.KeywordsBlock}>
+    <div id="keywords" className={style.KeywordsBlock}>
       <div className={style.KeywordsInside}>
         <div className={style.KeywordsHeaderText}>
           <h2>Преимущества</h2>
