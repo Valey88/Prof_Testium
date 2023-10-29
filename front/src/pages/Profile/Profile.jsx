@@ -1,4 +1,5 @@
 import ProfileHeader from '../../components/Profile/ProfileHeader/ProfileHeader'
+import ProfileInfo from '../../components/Profile/ProfileInfo/ProfileInfo'
 import style from './Profile.module.css'
 
 const Profile = () => {
@@ -9,6 +10,7 @@ const Profile = () => {
                 <h1>Мой профиль</h1>
                 <div className={style.ProfileBlock}>
                     <ProfileHeader />
+                    <ProfileInfo />
                 </div>
             </div>
         </>
