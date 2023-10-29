@@ -1,28 +1,35 @@
 .RatesCard {
-    background: #6D32FF;
-    border-radius: 20px;
-    padding: 56px 32px;
-    color: #fff;
-    width: 33%;
+  background: #6d32ff;
+  border-radius: 20px;
+  padding: 56px 32px;
+  color: #fff;
+  width: 33%;
+  margin-bottom: 300px;
 }
 
 .RatesCard h3 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .RatesCard span {
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.conditions {
+  margin-bottom: 81px;
 }
 
 .conditions div {
-    display: flex;
-    grid-gap: 15px;
+  display: flex;
+  grid-gap: 15px;
 }
 
 .conditions div p {
-    font-size: 20px;
+  font-size: 20px;
+}
+.conditions div {
+  margin: 28px 0;
 }

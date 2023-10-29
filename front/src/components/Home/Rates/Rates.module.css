@@ -1,4 +1,9 @@
 .Cards {
-    display: flex;
-    grid-gap: 39px;
+  display: flex;
+  grid-gap: 39px;
+}
+.ratrat {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
 }

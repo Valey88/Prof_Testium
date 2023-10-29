@@ -3,7 +3,7 @@ import style from "./Rates.Card.module.css"
 
 const RatesCard = ({ name, price }) => {
   return (
-    <div className={style.RatesCard}>
+    <div id="tarifs" className={style.RatesCard}>
       <h3>{name}</h3>
       <span>{price} руб./мес</span>
       <div className={style.conditions}>
