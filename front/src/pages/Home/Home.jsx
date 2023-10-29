@@ -3,6 +3,7 @@ import Keywords from "../../components/Home/Keywords/Keywords";
 import TrialBlock from "../../components/Home/Trialplatform/TrialBlock";
 import { Link } from "react-router-dom";
 import Opportunities from "../../components/Home/Opportunities/Opportunities";
+import Rates from '../../components/Home/Rates/Rates';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Opportunities />
       <Keywords />
       <TrialBlock />
+      <Rates />
     </>
   );
 };
